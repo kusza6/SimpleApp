@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  simple-app:
+    image: simple_app:dev
+    ports:
+      - "5000:80"
+  mongodb:
+    image: mongo:5.0.10
+
